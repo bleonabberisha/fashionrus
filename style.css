@@ -1,0 +1,40 @@
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 200px;
+  margin: 0; /* Fjerner standardmarginen */
+  padding: 0; /* Fjerner eventuel padding */
+  line-height: 1.2; /* Justér linjehøjden for at gøre teksten tættere */
+}
+
+ol {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column; /* Gør, at elementerne arrangeres lodret */
+  align-items: flex-start; /* Justerer dem til venstre (ændres til center, hvis du vil centrere dem) */
+}
+
+nav {
+}
+
+ol a {
+  margin: 5px 0; /* Tilføjer lidt mellemrum mellem hvert link */
+  text-decoration: none; /* Fjerner standard understregning */
+  color: #000; /* Skifter farven på linkene */
+}
+
+ol a:hover {
+  text-decoration: underline; /* Tilføjer understregning ved hover, hvis ønsket */
+}
+
+main {
+  font-family: fantasy;
+}
+
+#overskrift {
+  font-size: 50px;
+  margin: 0;
+  padding: 0%;
+}

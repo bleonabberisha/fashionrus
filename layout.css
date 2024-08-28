@@ -1,0 +1,36 @@
+.grid_4-1 {
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* 4 kolonner til at placere billederne vandret */
+  gap: 10px; /* Mellemrum mellem billederne */
+}
+.grid-items {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+ol a {
+  color: white;
+}
+.highlight {
+  color: #ab1b1b; /* Ændrer farven på bogstavet til rød */
+}
+body {
+  width: 100%; /* Eller en fast bredde */
+  margin: 0 auto; /* Centrerer horisontalt */
+  padding: 20px; /* Tilføjer luft omkring indholdet */
+}
+
+p,
+h2,
+a {
+  color: white;
+}
