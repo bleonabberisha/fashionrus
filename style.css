@@ -42,3 +42,53 @@ header {
   margin-top: 50px;
   padding-left: 60px;
 }
+.grid_1-1-1 {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  display: grid;
+  margin-top: 45px;
+}
+
+/* Stil til knapper */
+.btn {
+  background-color: #ff4d4d; /* Lys rød baggrund */
+  color: white; /* Hvid tekst */
+  font-size: 24px; /* Stor tekst */
+  padding: 20px 40px; /* Øger knappernes størrelse ved at tilføje polstring */
+  margin: 10px; /* Lidt afstand mellem knapperne */
+  border: 2px solid #000000; /* Sort kant omkring knapperne */
+  border-radius: 10px; /* Runde hjørner */
+  cursor: pointer; /* Skift til håndmarkør, når musen er over knappen */
+  width: 400px; /* Fast bredde for ensartet størrelse */
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); /* Sort skygge omkring knapperne */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Tilføj overgangseffekter */
+}
+
+.btn:hover {
+  background-color: #ff3333; /* Mørkere rød ved hover */
+  transform: scale(1.05); /* Gør knappen lidt større ved hover */
+}
+
+/* Stil til navigation */
+nav {
+  background-color: #333; /* Mørkegrå baggrund for navigationen */
+  padding: 15px; /* Polstring omkring linksene */
+  text-align: center; /* Centrerer linksene horisontalt */
+  border-radius: 8px; /* Runde hjørner */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Tilføjer skygge for dybde */
+}
+
+nav a {
+  color: white; /* Hvid tekstfarve */
+  text-decoration: none; /* Fjerner understregning */
+  font-size: 18px; /* Forstørrer tekst lidt */
+  margin: 0 15px; /* Tilføjer mellemrum mellem links */
+  padding: 10px 20px; /* Polstring omkring linksene for klikbart område */
+  border-radius: 5px; /* Runde hjørner på links */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Glat overgang for hover-effekter */
+}
+
+nav a:hover {
+  background-color: #ff4d4d; /* Lys rød baggrund ved hover */
+  color: #fff; /* Hvid tekstfarve ved hover */
+}
