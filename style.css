@@ -1,12 +1,14 @@
 img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 h1 {
-  font-size: 200px;
+  font-size: 180px;
   margin: 0; /* Fjerner standardmarginen */
   padding: 0; /* Fjerner eventuel padding */
   line-height: 1.2; /* Justér linjehøjden for at gøre teksten tættere */
+  margin-top: 50px;
+  padding-left: 100px;
 }
 
 ol {
@@ -14,9 +16,6 @@ ol {
   display: flex;
   flex-direction: column; /* Gør, at elementerne arrangeres lodret */
   align-items: flex-start; /* Justerer dem til venstre (ændres til center, hvis du vil centrere dem) */
-}
-
-nav {
 }
 
 ol a {
@@ -37,4 +36,9 @@ main {
   font-size: 50px;
   margin: 0;
   padding: 0%;
+}
+
+header {
+  margin-top: 50px;
+  padding-left: 60px;
 }
