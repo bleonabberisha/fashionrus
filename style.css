@@ -101,3 +101,44 @@ body {
 .product-discount {
   color: rgb(221, 37, 37);
 }
+
+.produktbillede {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+brugeragents typografiark img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+product-menu {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: center;
+  position: relative;
+}
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
+  padding: 20px;
+}
+* {
+  box-sizing: border-box;
+}

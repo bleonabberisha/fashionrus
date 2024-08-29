@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Produkt</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="layout.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="kategori.html">Kategorier</a>
+        <a href="produktliste.html">Brands</a>
+        <a href="produkt.html">Produkt</a>
+      </nav>
+
+      <a href="index.html" style="text-decoration: none; color: inherit">
+        <h1>FASHION<span class="highlight">R</span>US</h1>
+      </a>
+    </header>
+    <header></header>
+    <main>
+      <div class="grid-container">
+        <img class="produktbillede" src="img/tshirt1.webp" alt="red shirt" />
+
+        <div class="product-menu">
+          <h2>Cat red T-shirt</h2>
+
+          <p class="product-description">
+            Vores helt nye "Cat T-shirt" som nu også findes i rød, kærlighedens
+            farve! Kvaliteten er helt fantastisk, det er 100% økologisk og har
+            en duft af roser.
+          </p>
+
+          <label for="size-select">Vælg din størrelse:</label>
+          <select id="size-select" name="size">
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+            <option value="xxl">XXL</option>
+          </select>
+
+          <button class="add-to-basket">Tilføj til kurv</button>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
 </html>
