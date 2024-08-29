@@ -79,6 +79,7 @@ nav {
 }
 
 nav a {
+  font-family: fantasy;
   color: white; /* Hvid tekstfarve */
   text-decoration: none; /* Fjerner understregning */
   font-size: 18px; /* Forstørrer tekst lidt */
@@ -91,4 +92,12 @@ nav a {
 nav a:hover {
   background-color: #ff4d4d; /* Lys rød baggrund ved hover */
   color: #fff; /* Hvid tekstfarve ved hover */
+}
+
+body {
+  font-family: fantasy;
+}
+
+.product-discount {
+  color: rgb(221, 37, 37);
 }
